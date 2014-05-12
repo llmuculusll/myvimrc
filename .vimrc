@@ -8,7 +8,7 @@ colorscheme solarized
 
  filetype off                   " required!
 
- set rtp+=~/.vim/bundle/vundle/
+ set rtp+=~/.vim/bundle/Vundle.vim
  call vundle#rc()
 
  " let Vundle manage Vundle
@@ -21,12 +21,7 @@ colorscheme solarized
  Bundle 'tpope/vim-fugitive'
  Bundle 'Lokaltog/vim-easymotion'
  Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
- " vim-scripts repos
- Bundle 'L9'
- Bundle 'FuzzyFinder'
- " non github repos
  Bundle 'joonty/vdebug.git'
- Bundle 'git://git.wincent.com/command-t.git'
  Bundle 'joonty/vim-phpqa.git'
  Bundle 'shawncplus/phpcomplete.vim'
  Bundle 'ervandew/supertab'
@@ -36,6 +31,14 @@ colorscheme solarized
  Bundle 'vim-scripts/Auto-Pairs'
  Bundle 'bling/vim-airline'
  Bundle 'wikitopian/hardmode'
+ Bundle 'L9'
+ Bundle 'FuzzyFinder'
+ " vim-scripts repos
+
+ " non github repos
+ Bundle 'git://git.wincent.com/command-t.git'
+
+
  set keywordprg=pman
 
 

@@ -37,7 +37,6 @@ colorscheme solarized
  " vim-scripts repos
 
  " non github repos
- Bundle 'git://git.wincent.com/command-t.git'
 
 
  set keywordprg=pman

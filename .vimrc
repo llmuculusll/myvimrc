@@ -1,9 +1,4 @@
 syntax enable
-set background=dark
-set t_Co=16
-let g:solarized_termcolors=16
-colorscheme solarized
-
  set nocompatible               " be iMproved
 
  filetype off                   " required!
@@ -153,7 +148,7 @@ autocmd BufWritePre *.php,*.ctp :call <SID>StripTrailingWhitespaces()
 nmap <leader>l :set list!<CR>
  
 " Use the same symbols as TextMate for tabstops and EOLs
-set listchars=tab:▸\ ,eol:¬
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<  
 
 inoremap jk <esc>
 
@@ -166,3 +161,9 @@ function! Incr()
   normal `<
 endfunction
 vnoremap <C-a> :call Incr()<CR>
+
+set background=dark
+set t_Co=16
+let g:solarized_termcolors=16
+colorscheme solarized
+

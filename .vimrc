@@ -18,6 +18,7 @@ colorscheme solarized
  " My Bundles here:
  "
  " original repos on github
+ Bundle 'altercation/vim-colors-solarized'
  Bundle 'tpope/vim-fugitive'
  Bundle 'Lokaltog/vim-easymotion'
  Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
